@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>vaishnavi</groupId>
+  <artifactId>api_gateway_service</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+ <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <!-- Keep the version of Spring Boot Starter Parent you need -->
+        <version>2.6.2</version> <!-- Or whichever version you need -->
+    </parent>
+    
+    <dependencies>
+        <!-- Use a compatible version of Spring Cloud Starter Gateway -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-gateway</artifactId>
+            <!-- Choose a compatible version -->
+            <version>3.1.4</version> <!-- Adjust this version -->
+        </dependency>
+    
+    </dependencies>
+</project>
