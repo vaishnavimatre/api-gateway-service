@@ -19,6 +19,7 @@ jobs:
       image: alpine:latest
     steps:
       - name: install java
-        run: apk add --no-cache openjdk11-jdk
-      - name: print java -version
-        run: java --version
+        run: |
+              apk add --no-cache openjdk11-jdk
+              java --version
+
